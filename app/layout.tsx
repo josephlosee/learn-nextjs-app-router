@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { glitch as main_font } from '@/app/ui/fonts';
+import { inter as main_font } from '@/app/ui/fonts';
 
 export default function RootLayout({
   children,
