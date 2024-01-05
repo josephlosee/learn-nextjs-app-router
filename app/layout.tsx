@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { inter as main_font } from '@/app/ui/fonts';
+import { inter as primary_font } from '@/app/ui/fonts';
 
 export default function RootLayout({
   children,
@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${main_font.className} antialiased`}>{children}</body>
+      <body className={`${primary_font.className} antialiased`}>{children}</body>
     </html>
   );
 }
