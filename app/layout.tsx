@@ -8,7 +8,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${primary_font.className} antialiased`}>{children}</body>
+      <body className={`${primary_font.className} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
